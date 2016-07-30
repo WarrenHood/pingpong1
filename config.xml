@@ -7,7 +7,7 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Ping-Pong 0.0.1</name>
+    <name>Ping-Pong</name>
 
     <description>
         Ping Pong 
@@ -23,3 +23,4 @@
   <splash src='splash.png' height='200' width='320'/>
   <icon src='icon.png' height='50' width='50'/>
 </widget>
+<plugin name="org.apache.cordova.device-orientation" spec="0.3.11" source="pgb" />
