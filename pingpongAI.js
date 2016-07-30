@@ -4,10 +4,12 @@ function handleOrientation(event) {
   var alpha    = event.alpha;
   var beta     = event.beta;
   var gamma    = event.gamma;
-	bdX *= Math.abs(gamma/90);
+	bdX = Math.abs(gamma/90);
+if(debug)alert(alpha +' , '+beta+' , '+gamma;
   if(gamma < -10){bottomL = true;bottomR =false;}
   if(gamma > 10){bottomL = true;bottomR =false;}
 }
+debug = true;
 choices = false;
 scale = 1.06;
 padding = 10;
@@ -26,6 +28,7 @@ tdX = 12;
 bdX = tdX;
 dX = 2;
 dY = 2;
+if(debug)dY = 0;
 bDrunk = false;
 tDrunk = false;
 players = 1;
