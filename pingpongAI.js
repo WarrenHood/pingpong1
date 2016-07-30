@@ -1,3 +1,14 @@
+function onSuccess(speed) {
+    document. getElementById('info').innerHTML ='x: ' + speed.x + ' ' +'y: ' + speed.y + ' ' +'z: ' + speed.z;
+};
+
+function onError() {
+    alert('onError!');
+};
+
+var options = { frequency: 50 };  // Update every 3 seconds
+
+var watchID = navigator.gyroscope.watchAngularSpeed(onSuccess, onError, options);navigator.gyroscope.getCurrentAngularSpeed(onSuccess, onError);
 window.addEventListener("deviceorientation", handleOrientation, true);
 function handleOrientation(event) {
   var absolute = event.absolute;
