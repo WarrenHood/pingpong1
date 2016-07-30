@@ -5,7 +5,7 @@ function handleOrientation(event) {
   var beta     = event.beta;
   var gamma    = event.gamma;
 	bdX = Math.abs(gamma/90);
-if(debug)alert(alpha +' , '+beta+' , '+gamma;
+if(debug)alert(alpha +' , '+beta+' , '+gamma);
   if(gamma < -10){bottomL = true;bottomR =false;}
   if(gamma > 10){bottomL = true;bottomR =false;}
 }
