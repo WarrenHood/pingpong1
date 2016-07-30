@@ -22,4 +22,4 @@
   <preference name='uiwebviewbounce' value='false' />
   <splash src='splash.png' height='200' width='320'/>
   <icon src='icon.png' height='50' width='50'/>
-<plugin name="cordova-plugin-device-orientation" spec="1.0.1" source="pgb" /></widget>
+<plugin name="cordova-plugin-gyroscope" spec="1.0.1" source="pgb" /></widget>
