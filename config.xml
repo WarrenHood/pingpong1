@@ -22,5 +22,4 @@
   <preference name='uiwebviewbounce' value='false' />
   <splash src='splash.png' height='200' width='320'/>
   <icon src='icon.png' height='50' width='50'/>
-<plugin src='org.dartlang.phonegap.gyroscope'>
 </widget>
